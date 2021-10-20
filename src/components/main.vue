@@ -1,5 +1,5 @@
 <template>
-  <div id="app" >
+  <div class="main" >
     <v-app :class="{ 'pa-3': $vuetify.breakpoint.smAndUp }" :dark="darkTheme" id="inspire"
     >
       <v-container id="bg" class="pt-16">
@@ -12,7 +12,7 @@
 
               <v-btn color="primary"
                      elevation="3"
-                     large  class="black--text primary">Ingresar sesion
+                     large  class="white--text">Ingresar sesion
 
               </v-btn>
 
@@ -54,7 +54,7 @@
                 </v-form>
               </v-card-text>
               <div class="text-center pb-6">
-                <v-btn depressed color="primary">
+                <v-btn text to="/teacher-main" depressed color="primary">
                   Ingresar
                 </v-btn>
               </div>
